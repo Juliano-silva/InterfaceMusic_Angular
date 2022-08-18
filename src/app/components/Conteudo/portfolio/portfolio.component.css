@@ -1,0 +1,56 @@
+.Perfil{
+  border: 1px solid white;
+  width: 20em;
+  height: 20em;
+  animation: LinhaTempo 10s infinite alternate;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+@keyframes LinhaTempo {
+  0%{
+    background-image: url(../../../../Arquivos/1.jfif);
+  }
+  35%{
+    background-image: url(../../../../Arquivos/2.jpg);
+  }
+  75%{
+    background-image: url(../../../../Arquivos/3.jpg);
+  }
+  100%{
+    background-image: url(../../../../Arquivos/4.png);
+  }
+}
+.Portfolio{
+  width: 60%;
+  margin: auto;
+  height: 45em;
+}
+.ph1{
+  border: 2px solid transparent;
+  border-radius: 25px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  background: black;
+}
+.ph1 > p{
+  background-image: url(../../../../Arquivos/Green.gif);
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ph1 > h1{
+  color: transparent;
+  font-size: 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 5px yellow;
+}
+.ph1 > p{
+  font-size: 25px;
+}

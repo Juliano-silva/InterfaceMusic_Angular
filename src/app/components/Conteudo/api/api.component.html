@@ -1,0 +1,25 @@
+<div class="Api">
+  <div>
+      <div>
+        <div class="TLIC">
+          <form id="add-form" (ngSubmit)="f.form.valid && saveCar(f)" #f="ngForm" novalidate>
+            <div>
+              <label>Titulo  </label><br>
+              <input type="text" [(ngModel)]="car.title" id="title" name="title" #title="ngModel" [ngClass]="{ 'is-invalid': f.submitted && title.invalid }">
+          </div>
+            <div>
+              <label>Link  </label><br>
+              <input type="text" [(ngModel)]="car.link" id="link" name="link" #link="ngModel" [ngClass]="{ 'is-invalid': f.submitted && link.invalid }">
+          </div>
+        <div>
+          <label>Image </label><br>
+          <input type="text" [(ngModel)]="car.imagem" id="imagem" name="imagem" #imagem="ngModel" [ngClass]="{ 'is-invalid': f.submitted && imagem.invalid }">
+      </div>
+      <div>
+        <label>Conteúdo  </label><br>
+        <textarea [(ngModel)]="car.conteudo" id="conteudo" name="conteudo" #conteudo="ngModel" [ngClass]="{ 'is-invalid': f.submitted && conteudo.invalid }"></textarea>
+    </div>
+            <button type="submit" class="Salvar">Salvar</button>
+          </form>
+      </div>
+    </div></div>

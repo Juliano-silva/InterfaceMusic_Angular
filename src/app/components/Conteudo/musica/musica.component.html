@@ -1,0 +1,17 @@
+<table>
+  <tbody class="body">
+    <tr *ngFor="let car of cars">
+      <div class="CorpoTable">
+        <td id="title">{{car.title}}</td>
+        <td><img id="image" src={{car.imagem}} alt=""></td>
+        <audio id="audio" controls>
+          <source  src={{car.link}}/>
+        </audio>
+        <td id="conteudo">{{car.conteudo}} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio minima ratione quis ab numquam sapiente explicabo, eaque sit iusto obcaecati fugit et quod illum voluptates rem debitis perferendis commodi nesciunt.</td>
+        <td>
+          <button type="button" (click)="deleteCar(car)" id="Deletar">Deletar</button>
+        </td>
+      </div>
+    </tr>
+  </tbody>
+</table>

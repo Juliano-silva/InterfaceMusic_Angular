@@ -1,0 +1,67 @@
+table{
+  display: block;
+  height: 100vh;
+  overflow: auto;
+}
+table::-webkit-scrollbar{
+  width: 0px;
+}
+.body{
+  display: block;
+  width: 84em;
+  margin: auto;
+}
+.CorpoTable{
+  border: 5px solid white;
+  border-radius: 20px;
+  height: 10em;
+  width: 80em;
+  margin-top: 10px;
+}
+#image{
+  height: 10em;
+  width: 10em;
+  margin-top: -38px;
+  border-radius: 20px 0 0 20px;
+  margin-left: -2px;
+}
+#audio {
+  display: block;
+  margin: auto;
+  margin-top: -120px;
+}
+#title{
+  display: block;
+  border: 1px solid transparent;
+  text-align: center;
+  color: #AECFA4;
+  font-size: 30px;
+}
+#conteudo{
+  display: block;
+  text-align: center;
+  margin-top: -80px;
+  margin-left: 900px;
+  width: 24em;
+  height: 8em;
+  overflow: auto;
+}
+#conteudo::-webkit-scrollbar{
+  width: 0px;
+}
+#Deletar{
+  cursor: pointer;
+  border: 2px solid white;
+  display: block;
+  margin-left: 580px;
+  margin-top: -20px;
+  width: 10em;
+  height: 2em;
+  border-radius: 20px;
+  background: yellow;
+  color: black;
+}
+#Deletar:hover{
+  background: black;
+  color: yellow;
+}
